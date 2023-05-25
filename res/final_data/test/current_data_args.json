@@ -1,0 +1,19 @@
+{
+  "lm_dataset_name": "wikitext|wikitext-2-raw-v1;glue|mrpc|sentence1",
+  "lm_disk_dataset_dir": null,
+  "lm_train_file": null,
+  "lm_train_dir": "./test_data/owt2|json|text",
+  "mt_train_file": "./test_data/mt/mt_test1.txt;./test_data/mt/mt_test2.txt",
+  "mt_train_dir": null,
+  "model_name_or_path": "gpt2",
+  "final_train_dir": "./res/final_data/test",
+  "final_lm_dir": "/home/yaoyiqun/llm_mup/nlm_dev/res/final_data/test/lm",
+  "final_mt_dir": "/home/yaoyiqun/llm_mup/nlm_dev/res/final_data/test/mt",
+  "final_tokenize_dir": "/home/yaoyiqun/llm_mup/nlm_dev/res/final_data/test/tokenizer",
+  "block_size": 1024,
+  "preprocessing_num_workers": 10,
+  "cache_dir": null,
+  "min_text_length": 5,
+  "do_lm_process": true,
+  "do_mt_process": true
+}

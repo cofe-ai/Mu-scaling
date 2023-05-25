@@ -1,0 +1,29 @@
+{
+  "citation": "@misc{merity2016pointer,\n      title={Pointer Sentinel Mixture Models},\n      author={Stephen Merity and Caiming Xiong and James Bradbury and Richard Socher},\n      year={2016},\n      eprint={1609.07843},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n\n\n@inproceedings{dolan2005automatically,\n  title={Automatically constructing a corpus of sentential paraphrases},\n  author={Dolan, William B and Brockett, Chris},\n  booktitle={Proceedings of the Third International Workshop on Paraphrasing (IWP2005)},\n  year={2005}\n}\n@inproceedings{wang2019glue,\n  title={{GLUE}: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding},\n  author={Wang, Alex and Singh, Amanpreet and Michael, Julian and Hill, Felix and Levy, Omer and Bowman, Samuel R.},\n  note={In the Proceedings of ICLR.},\n  year={2019}\n}",
+  "description": "The WikiText language modeling dataset is a collection of over 100 million tokens extracted from the set of verified\n Good and Featured articles on Wikipedia. The dataset is available under the Creative Commons Attribution-ShareAlike\n License.\n\n\nGLUE, the General Language Understanding Evaluation benchmark\n(https://gluebenchmark.com/) is a collection of resources for training,\nevaluating, and analyzing natural language understanding systems.",
+  "features": {
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "https://blog.einstein.ai/the-wikitext-long-term-dependency-language-modeling-dataset/\n\nhttps://www.microsoft.com/en-us/download/details.aspx?id=52398",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
+}
