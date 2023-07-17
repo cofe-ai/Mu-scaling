@@ -58,7 +58,7 @@ sh run_eval_ppl_loss_pred.sh
 
 ## References
 
-If this project helps you, please cite us, thanks!
+If this project helps you, please star and cite us, thanks!
 ```
 @article{DBLP:journals/corr/abs-2304-06875,
   author       = {Yiqun Yao and Yequan Wang},
